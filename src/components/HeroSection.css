@@ -1,6 +1,9 @@
 .home__hero-section {
     color: #fff;
-    padding: 160px 0;
+    padding: 100px 0;
+    min-height: 98vh;
+    display: flex;
+    align-items: center;
 }
 
 .home__hero-row {
@@ -24,8 +27,7 @@
 
 .home__hero-text-wrapper {
     max-width: 540px;
-    padding-top: 0;
-    padding-bottom: 60px;
+    padding: 0px;
 }
 
 .top-line {
@@ -62,13 +64,17 @@
 }
 
 .home__hero-img-wrapper {
-    max-width: 555px;
+    max-width: 550px;
+    text-align: center;
 }
 
+.home__hero-section:nth-child(4) .home__hero-img {
+    max-width: 70%;
+}
 .home__hero-img {
     max-width: 95%;
     margin: 0 0 0 10px;
-    padding-right: 0;
+    padding: 10px 0;
 }
 
 img {
@@ -95,3 +101,6 @@ img {
         flex-basis: 100%;
     }
 }
+
+/* @media screen and (min-width: 1600px) { */
+/* } */

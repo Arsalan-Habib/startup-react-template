@@ -14,6 +14,7 @@ function HeroSection({
     img,
     alt,
     imgStart,
+    buttonColor,
 }) {
     return (
         <Fragment>
@@ -48,12 +49,12 @@ function HeroSection({
                                             : "home__hero-subtitle dark"
                                     }
                                 >
-                                    {description}d
+                                    {description}
                                 </p>
                                 <Link to='/sign-up'>
                                     <Button
                                         buttonSize='btn--wide'
-                                        buttonColor='blue'
+                                        buttonColor={buttonColor}
                                     >
                                         {buttonLabel}
                                     </Button>
