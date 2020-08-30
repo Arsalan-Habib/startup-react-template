@@ -9,7 +9,7 @@ import "./Pricing.css";
 
 function Pricing() {
     return (
-        <IconContext.Provider value={{ color: "#fff", size: 64 }}>
+        <IconContext.Provider value={{ size: 64 }}>
             <div>
                 <div className='pricing__section'>
                     <div className='pricing__wrapper'>

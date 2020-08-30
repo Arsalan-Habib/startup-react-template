@@ -51,11 +51,11 @@
 
 .nav-item {
     height: 80px;
-    border-bottom: 2px solid transparent;
+    border-bottom: 5px solid transparent;
 }
 
 .nav-item:hover {
-    border-bottom: 2px solid #f00946;
+    border-bottom: 5px solid #f00946;
 }
 
 .nav-links {
